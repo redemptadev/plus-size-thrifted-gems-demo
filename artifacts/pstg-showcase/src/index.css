@@ -43,6 +43,10 @@
   --font-sans: 'Poppins', sans-serif;
   --font-serif: 'Playfair Display', serif;
 
+  --color-rose: #C17B8A;
+  --color-rose-light: #F2D9DF;
+  --color-rose-muted: #E8B4BF;
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);

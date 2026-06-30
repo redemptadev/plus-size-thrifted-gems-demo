@@ -5,6 +5,9 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import dress1 from "@assets/Screenshot_30-6-2026_143113_www.instagram.com_1782819114130.jpeg";
 import dress2 from "@assets/Screenshot_30-6-2026_14310_www.instagram.com_1782819114130.jpeg";
 import dress3 from "@assets/Screenshot_30-6-2026_143047_www.instagram.com_1782819114130.jpeg";
+import new1 from "@assets/Screenshot_30-6-2026_144459_www.instagram.com_1782819952923.jpeg";
+import new2 from "@assets/Screenshot_30-6-2026_144513_www.instagram.com_1782819952923.jpeg";
+import new3 from "@assets/Screenshot_30-6-2026_144530_www.instagram.com_1782819952923.jpeg";
 import fallback1 from "@/assets/featured-1.png";
 import fallback2 from "@/assets/featured-2.png";
 import fallback3 from "@/assets/featured-3.png";
@@ -28,6 +31,9 @@ const PRODUCTS = [
   { id: 8, name: "Garden Party Dress", price: "800 KSh", size: "UK 18-20", category: "Dresses", img: fallback5 },
   { id: 9, name: "New Arrival Gown", price: "800 KSh", size: "UK 20-24", category: "New Arrivals", img: fallback6 },
   { id: 10, name: "Relaxed Summer Piece", price: "800 KSh", size: "UK 16-18", category: "Casual", img: fallback7 },
+  { id: 11, name: "Gold Chain Maxi", price: "800 KSh", size: "UK 18-24", category: "Maxi Dresses", img: new1 },
+  { id: 12, name: "Olive Bodycon Midi", price: "800 KSh", size: "UK 16-22", category: "Dresses", img: new2 },
+  { id: 13, name: "Bold Stripe Mini", price: "800 KSh", size: "UK 18-20", category: "New Arrivals", img: new3 },
 ];
 
 export default function Collection() {
