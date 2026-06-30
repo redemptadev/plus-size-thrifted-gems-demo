@@ -1,0 +1,60 @@
+Build a premium, editorial-style e-commerce showcase website for "Plus Size Thrifted Gems" — a Kenyan Instagram thrift fashion brand redefining accessible luxury for plus-size women.
+This is a concept site demonstrating how the brand could present itself online with the polish of a boutique fashion house.
+Brand Identity
+Visual language should echo high-end fashion editorials (think Vogue meets boutique e-commerce) while staying rooted in the brand's existing Instagram aesthetic.
+Color Palette:
+
+Matte Black #0F0F0F — grounding, dramatic backgrounds
+Luxury Gold #C9A227 — accents only: buttons, dividers, icons, hover states, underlines
+White #FFFFFF — breathing space, clean cards
+Soft Beige #F8F5F0 — warm section backgrounds, alternating with white for rhythm
+
+Gold should feel earned, not overused — thin gold lines, a gold-foil-style underline on headings, a subtle gold shimmer on hover states.
+Style Direction
+The site should feel: premium, feminine, editorial, confident, warm, boutique — never generic or templated. Think soft drop shadows, generous white space, slow elegant transitions (not flashy), rounded-but-structured corners, and fashion-magazine pacing — let images breathe.
+Add small luxury signatures: a subtle fade-in on scroll, an elegant gold-line divider between sections, serif drop-caps or pull-quotes for storytelling sections, and soft parallax on the hero image.
+Home Page
+Hero section, full-bleed image or curated flatlay, headline overlaid with elegant spacing:
+
+Quality Thrifted Fashion for Plus Size Women
+
+Subheading: "Beautiful thrifted pieces, carefully curated to help every woman feel confident, stylish and comfortable."
+Two CTAs: Shop Collection (solid gold/black) and Order on WhatsApp (outlined, gold border, fills on hover).
+Sections below hero (each with a short editorial intro line, not just a header):
+
+Featured Collection (curated grid, "as seen on Instagram" feel)
+Why Choose Us (icons + short copy: quality checks, size-inclusive curation, affordability without compromise)
+Nationwide Delivery (map or icon strip — Kenya-wide reach)
+Customer Testimonials (carousel, soft gold quote marks)
+Instagram Preview (live-feed style grid linking to the real page)
+Closing CTA section ("Your next favorite piece is one message away")
+
+Collection Page
+Responsive shopping gallery, masonry or clean grid. Each card: product image (hover zoom), dress name, price, size, WhatsApp order button (gold, icon included). Sticky filter bar: Dresses, Maxi Dresses, Casual, New Arrivals — active filter underlined in gold.
+About Page
+Editorial brand story — warm, personal tone — on the mission of making stylish, well-fitting plus-size fashion affordable and accessible across Kenya. Include a pull-quote treatment for one key brand line.
+FAQ Page
+Accordion-style, gold expand icons: How do I order? Do you deliver countrywide? What payment methods do you accept? Can I reserve an item?
+Contact Page
+WhatsApp button, Instagram button, delivery coverage note, business hours — laid out like a boutique's "visit us" card rather than a plain contact form.
+Features
+
+Sticky nav with subtle shrink-on-scroll
+Scroll-triggered fade/slide animations
+Floating WhatsApp button (pulse animation)
+Fully responsive, mobile-first
+Fast-loading, optimized images
+Elegant footer with gold-line accents
+Smooth hover states throughout
+
+Typography
+
+Playfair Display — headings (generous letter-spacing for that editorial feel)
+Poppins — body copy, clean and readable
+
+Footer
+"Website Concept by Nuvanta"
+Below it: "This website is a design concept created for demonstration purposes and is not the official website of Plus Size Thrifted Gems."
+Technical Requirements
+HTML5, CSS3, JavaScript, clean and well-organized project structure, fully responsive across devices, deployment-ready for Vercel.
+Bonus: The end result should feel like stepping into a real fashion boutique — not browsing an Instagram shop. Prioritize visual storytelling, luxury pacing, and frictionless WhatsApp ordering at every touchpoint.

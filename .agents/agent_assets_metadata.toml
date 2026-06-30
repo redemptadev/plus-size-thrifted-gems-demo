@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "J8iEktk94rLOLRsjELNxL"
+uri = "file://artifacts/pstg-showcase/src/assets/hero.png"
+type = "image"
+title = "fashion hero background"
+
+[[generated]]
+id = "7BriGEUUpe7rY0eoFT0Mg"
+uri = "file://artifacts/pstg-showcase/src/assets/featured-1.png"
+type = "image"
+title = "featured dress 1"
+
+[[generated]]
+id = "wxfpXRowz-QbnfQCUzrmk"
+uri = "file://artifacts/pstg-showcase/src/assets/featured-2.png"
+type = "image"
+title = "featured dress 2"
+
+[[generated]]
+id = "4CzAutEXgKNcwGh2709wE"
+uri = "file://artifacts/pstg-showcase/src/assets/featured-3.png"
+type = "image"
+title = "featured dress 3"
+
+[[generated]]
+id = "zL-ZU1X2fLhwKGXXtE3WD"
+uri = "file://artifacts/pstg-showcase/src/assets/insta-1.png"
+type = "image"
+title = "instagram square 1"
+
+[[generated]]
+id = "SguE9sASNS5GxEcl1XL_B"
+uri = "file://artifacts/pstg-showcase/src/assets/insta-2.png"
+type = "image"
+title = "instagram square 2"
+
+[[generated]]
+id = "lOuAZUv4UE9RV5iNpBLiM"
+uri = "file://artifacts/pstg-showcase/src/assets/insta-3.png"
+type = "image"
+title = "instagram square 3"
+
+[[generated]]
+id = "v79CztsgWVMLi5WvYlExh"
+uri = "file://artifacts/pstg-showcase/src/assets/about.png"
+type = "image"
+title = "about page lifestyle"
+
+[[generated]]
+id = "IHe1JoPe1LBlgCYKGE8ko"
+uri = "file://artifacts/pstg-showcase/src/assets/collection-1.png"
+type = "image"
+title = "collection dress 1"
+
+[[generated]]
+id = "xcjyJPRx-PVf5zYK0qEVa"
+uri = "file://artifacts/pstg-showcase/src/assets/collection-2.png"
+type = "image"
+title = "collection dress 2"
