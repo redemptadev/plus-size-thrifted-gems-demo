@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import logoImg from "@assets/727519327_18093713027263464_1789033325456858993_n_1782819260564.jpg";
 
 
 const WHATSAPP_URL = "https://wa.me/254700000000";
@@ -34,8 +35,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         }`}
       >
         <div className="container mx-auto px-6 flex items-center justify-between">
-          <Link href="/" className="font-serif text-white text-xl tracking-widest font-bold">
-            PSTG.
+          <Link href="/" className="flex items-center gap-2">
+            <img src={logoImg} alt="Plus Size Thrifted Gems" className="w-10 h-10 rounded-full object-cover" />
+            <span className="font-serif text-white text-sm tracking-widest font-bold hidden lg:block">PLUSSIZE THRIFTED GEMS</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8">
             <NavLink href="/" current={location}>Home</NavLink>

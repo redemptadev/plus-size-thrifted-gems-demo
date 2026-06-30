@@ -2,30 +2,32 @@ import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { AnimatedSection } from "@/components/AnimatedSection";
 
-import img1 from "@/assets/collection-1.png";
-import img2 from "@/assets/collection-2.png";
-import featured1 from "@/assets/featured-1.png";
-import featured2 from "@/assets/featured-2.png";
-import featured3 from "@/assets/featured-3.png";
-import insta1 from "@/assets/insta-1.png";
-import insta2 from "@/assets/insta-2.png";
-import aboutImg from "@/assets/about.png";
+import dress1 from "@assets/Screenshot_30-6-2026_143113_www.instagram.com_1782819114130.jpeg";
+import dress2 from "@assets/Screenshot_30-6-2026_14310_www.instagram.com_1782819114130.jpeg";
+import dress3 from "@assets/Screenshot_30-6-2026_143047_www.instagram.com_1782819114130.jpeg";
+import fallback1 from "@/assets/featured-1.png";
+import fallback2 from "@/assets/featured-2.png";
+import fallback3 from "@/assets/featured-3.png";
+import fallback4 from "@/assets/insta-1.png";
+import fallback5 from "@/assets/insta-2.png";
+import fallback6 from "@/assets/collection-1.png";
+import fallback7 from "@/assets/collection-2.png";
 
 const WHATSAPP_URL = "https://wa.me/254700000000";
 
 const CATEGORIES = ["All", "Dresses", "Maxi Dresses", "Casual", "New Arrivals"];
 
 const PRODUCTS = [
-  { id: 1, name: "Evening Velvet Gown", price: "KSh 3,500", size: "UK 18-20", category: "Maxi Dresses", img: img1 },
-  { id: 2, name: "Minimalist White Midi", price: "KSh 2,200", size: "UK 16", category: "Dresses", img: img2 },
-  { id: 3, name: "Vintage Floral Sundress", price: "KSh 1,800", size: "UK 22-24", category: "Dresses", img: featured1 },
-  { id: 4, name: "Power Blazer Suit", price: "KSh 4,500", size: "UK 20", category: "New Arrivals", img: featured2 },
-  { id: 5, name: "Emerald Silk Slip", price: "KSh 2,800", size: "UK 18", category: "Maxi Dresses", img: featured3 },
-  { id: 6, name: "Denim & Linen Set", price: "KSh 2,000", size: "UK 16-18", category: "Casual", img: insta1 },
-  { id: 7, name: "Crimson Evening Wear", price: "KSh 3,800", size: "UK 24-26", category: "Maxi Dresses", img: insta2 },
-  { id: 8, name: "Garden Wrap Dress", price: "KSh 1,900", size: "UK 18-20", category: "Dresses", img: aboutImg },
-  { id: 9, name: "Pristine White Suit", price: "KSh 4,200", size: "UK 20-22", category: "New Arrivals", img: img1 },
-  { id: 10, name: "Summer Breeze Outfit", price: "KSh 1,500", size: "UK 16", category: "Casual", img: img2 },
+  { id: 1, name: "Teal Floral Midi", price: "800 KSh", size: "UK 18-20", category: "Dresses", img: dress1 },
+  { id: 2, name: "Tropical Leaf Maxi", price: "800 KSh", size: "UK 16-22", category: "Maxi Dresses", img: dress2 },
+  { id: 3, name: "Blue Floral Sundress", price: "800 KSh", size: "UK 18-24", category: "Dresses", img: dress3 },
+  { id: 4, name: "Elegant Floral Wrap", price: "800 KSh", size: "UK 20-24", category: "New Arrivals", img: fallback1 },
+  { id: 5, name: "Luxury Evening Maxi", price: "800 KSh", size: "UK 18-22", category: "Maxi Dresses", img: fallback2 },
+  { id: 6, name: "Chic Casual Midi", price: "800 KSh", size: "UK 16-20", category: "Casual", img: fallback3 },
+  { id: 7, name: "Bold Print Maxi", price: "800 KSh", size: "UK 22-26", category: "Maxi Dresses", img: fallback4 },
+  { id: 8, name: "Garden Party Dress", price: "800 KSh", size: "UK 18-20", category: "Dresses", img: fallback5 },
+  { id: 9, name: "New Arrival Gown", price: "800 KSh", size: "UK 20-24", category: "New Arrivals", img: fallback6 },
+  { id: 10, name: "Relaxed Summer Piece", price: "800 KSh", size: "UK 16-18", category: "Casual", img: fallback7 },
 ];
 
 export default function Collection() {

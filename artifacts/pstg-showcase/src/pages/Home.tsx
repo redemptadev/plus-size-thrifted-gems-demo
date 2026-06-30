@@ -3,11 +3,11 @@ import { Link } from "wouter";
 import { FaWhatsapp, FaCheckCircle, FaStar, FaInstagram, FaMapMarkerAlt } from "react-icons/fa";
 import { AnimatedSection } from "@/components/AnimatedSection";
 
-// Images
-import heroImg from "@/assets/hero.png";
-import featured1 from "@/assets/featured-1.png";
-import featured2 from "@/assets/featured-2.png";
-import featured3 from "@/assets/featured-3.png";
+// Real product images from Instagram
+import dress1 from "@assets/Screenshot_30-6-2026_143113_www.instagram.com_1782819114130.jpeg";
+import dress2 from "@assets/Screenshot_30-6-2026_14310_www.instagram.com_1782819114130.jpeg";
+import dress3 from "@assets/Screenshot_30-6-2026_143047_www.instagram.com_1782819114130.jpeg";
+import logoImg from "@assets/727519327_18093713027263464_1789033325456858993_n_1782819260564.jpg";
 import insta1 from "@/assets/insta-1.png";
 import insta2 from "@/assets/insta-2.png";
 import insta3 from "@/assets/insta-3.png";
@@ -22,9 +22,9 @@ export default function Home() {
       <section className="relative min-h-[100dvh] flex items-center justify-center pt-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src={heroImg}
+            src={dress1}
             alt="Beautiful plus-size fashion"
-            className="w-full h-full object-cover object-top opacity-50"
+            className="w-full h-full object-cover object-top opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0F0F0F]/80 via-[#0F0F0F]/50 to-[#0F0F0F]" />
         </div>
@@ -35,9 +35,11 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <span className="text-primary tracking-[0.2em] text-sm uppercase mb-4 block font-medium">
-              Nairobi's Premium Thrift
-            </span>
+            <img
+              src={logoImg}
+              alt="Plus Size Thrifted Gems"
+              className="w-40 h-40 md:w-52 md:h-52 object-contain mx-auto mb-6 rounded-full"
+            />
             <h1 className="font-serif text-5xl md:text-7xl mb-6 leading-tight">
               Quality Thrifted Fashion for Plus Size Women
             </h1>
@@ -77,9 +79,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { img: featured1, name: "Luxury Evening Maxi", price: "KSh 2,500", size: "UK 18-20" },
-              { img: featured2, name: "Chic Office Blazer Set", price: "KSh 3,200", size: "UK 22-24" },
-              { img: featured3, name: "Vintage Floral Midi", price: "KSh 1,800", size: "UK 16-18" },
+              { img: dress1, name: "Teal Floral Midi", price: "800 KSh", size: "UK 18-20" },
+              { img: dress2, name: "Tropical Leaf Maxi", price: "800 KSh", size: "UK 16-22" },
+              { img: dress3, name: "Blue Floral Sundress", price: "800 KSh", size: "UK 18-24" },
             ].map((item, i) => (
               <AnimatedSection key={i} delay={i * 0.2} className="group cursor-pointer">
                 <div className="relative overflow-hidden mb-6 aspect-[3/4] bg-gray-900">
